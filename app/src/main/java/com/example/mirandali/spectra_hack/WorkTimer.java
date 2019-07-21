@@ -13,7 +13,7 @@ public class WorkTimer extends AppCompatActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.break_timer);
+        setContentView(R.layout.work_timer);
 
         button_breakTime = (Button) findViewById(R.id.button_breakTime);
         button_Pause = (Button) findViewById(R.id.button_Pause);
