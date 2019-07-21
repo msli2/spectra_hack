@@ -3,4 +3,40 @@
     android:layout_width="match_parent" android:layout_height="match_parent"
     android:background="@drawable/selectionandbreak">
 
+    <TextView
+        android:id="@+id/textView_worksession"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="124dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView_breaksession"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="163dp"
+        android:text="" />
+
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="2dp"
+        android:background="@android:color/transparent"/>
+
+    <Button
+        android:id="@+id/button_startworking"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button_back"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="4dp"
+        android:background="@android:color/transparent"/>
 </RelativeLayout>

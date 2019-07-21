@@ -6,4 +6,32 @@
     android:layout_height="match_parent"
     android:background="@drawable/selections">
 
+    <Button
+        android:id="@+id/button_plus"
+        android:layout_width="33dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="306dp"
+        android:layout_marginBottom="227dp"
+        android:background="@android:color/transparent"/>
+
+    <TextView
+        android:id="@+id/textView_submitTime"
+        android:layout_width="157dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="239dp"
+        android:text="" />
+
+    <Button
+        android:id="@+id/button_minus"
+        android:layout_width="33dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="84dp"
+        android:layout_marginBottom="228dp"
+        android:background="@android:color/transparent"/>
 </RelativeLayout>
