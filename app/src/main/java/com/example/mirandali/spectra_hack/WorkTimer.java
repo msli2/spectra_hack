@@ -14,9 +14,11 @@ public class WorkTimer extends AppCompatActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.break_timer);
+
         button_breakTime = (Button) findViewById(R.id.button_breakTime);
         button_Pause = (Button) findViewById(R.id.button_Pause);
         button_imDone = (Button) findViewById(R.id.button_imDone);
+
         button_breakTime.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -43,7 +45,7 @@ public class WorkTimer extends AppCompatActivity{
     public void pause_clock(){
     }
     public void doneWithWork() {
-        Intent b = new Intent(WorkTimer.this,Done.class);
+        Intent b = new Intent(WorkTimer.this, Done.class);
         startActivity(b);
     }
 }

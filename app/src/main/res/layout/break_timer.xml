@@ -40,6 +40,8 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="103dp"
         android:layout_marginBottom="207dp"
+        android:text="11:00"
         android:textAlignment="center"
-        android:textSize="80sp" />
+        android:textSize="80sp"
+        android:textStyle="bold" />
 </RelativeLayout>
