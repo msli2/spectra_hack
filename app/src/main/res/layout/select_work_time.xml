@@ -34,4 +34,13 @@
         android:layout_marginStart="84dp"
         android:layout_marginBottom="228dp"
         android:background="@android:color/transparent"/>
+
+    <Button
+        android:id="@+id/button_startTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_plus"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-227dp"
+        android:text="Start" />
 </RelativeLayout>
