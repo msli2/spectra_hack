@@ -18,6 +18,14 @@
         </activity>
         <activity android:name=".SelectWorkTime">
         </activity>
+        <activity android:name=".SelectionAndBreak">
+        </activity>
+        <activity android:name=".WorkTimer">
+        </activity>
+        <activity android:name=".BreakTimer">
+        </activity>
+        <activity android:name=".Done">
+        </activity>
     </application>
 
 </manifest>
